@@ -1,0 +1,16 @@
+print("Using list")
+countries = ['India', 'Nepal', 'Bhutan']
+print("Countries :", countries)
+countries.append('Pakistan')
+print("Added country at end :", countries)
+item = countries.pop(1)
+print("Removing country :", countries)
+countries.insert(2, 'America')
+print("Added country at middle :", countries)
+print("Using set")
+set = {'India', 'Nepal', 'Bhutan'}
+print("Countries :", set)
+set.add('Pakistan')
+print("Added country :", set)
+set.remove('Nepal')
+print("Removed country :", set)
